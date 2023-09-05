@@ -16,7 +16,7 @@ about_text = """
 - María López Jiménez
 - Karla Lamus
 - Javi Navarro
-- Sandra Gómez S.
+- Sandra Gómez Santamaría
 
 [Repositorio del proyecto](https://github.com/AI-School-F5-P2/F5_airlines-G1.git)
 """
