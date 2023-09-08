@@ -89,7 +89,7 @@ for name, model in models.items():
     with open(f"{name}.pkl", 'wb') as f:
         pickle.dump(pipeline, f)
 
-    # Nicely print the evaluation results for the current model
+    # Print the evaluation results for the current model
     print(f"{name.upper()}:\n")
     print(f"Accuracy:  {results[name]['accuracy']}")
     print(f"Recall:    {results[name]['recall']}")
