@@ -1,0 +1,75 @@
+Columnas en orden:
+Gender
+Customer Type
+Age
+Type of Travel
+Class
+Flight Distance
+Inflight wifi service
+Departure/Arrival time convenient
+Ease of Online booking
+Gate location
+Food and drink
+Online boarding
+Seat comfort
+Inflight entertainment
+On-board service
+Leg room service
+Baggage handling
+Checkin service
+Inflight service
+Cleanliness
+Departure Delay in Minutes
+Arrival Delay in Minutes
+satisfaction
+
+Preguntas demográficas:
+
+Radio
+Gender, Age 
+
+Preguntas de ingresar un número
+Flight Distance
+Departure Delay in Minutes
+Arrival Delay in Minutes
+Age
+
+Preguntas de opciones:
+Customer Type
+Type of Travel 
+Class
+
+
+
+
+
+Preguntas:
+
+"Age"
+"Flight Distance"
+"Inflight wifi service"
+"Departure/Arrival time convenient"
+"Ease of Online booking"
+"Gate location"
+"Food and drink"
+"Online boarding"
+"Seat comfort"
+"Inflight entertainment"
+"On-board service"
+"Leg room service"
+"Baggage handling"
+"Checkin service"
+"Inflight service"
+"Cleanliness"
+"Departure Delay in Minutes"
+"Arrival Delay in Minutes"
+
+
+'Gender'
+'Customer Type'
+'Type of Travel'
+'Class'
+
+
+Demográficas:
+Age

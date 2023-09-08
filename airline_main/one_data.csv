@@ -1,2 +1,2 @@
-Inflight wifi service,Food and drink,Customer Type,Gender
-0,0,Disloyal Customer,Male
+Gender,Customer Type,Age,Type of Travel,Class,Flight Distance,Inflight wifi service,Departure/Arrival time convenient,Ease of Online booking,Gate location,Food and drink,Online boarding,Seat comfort,Inflight entertainment,On-board service,Leg room service,Baggage handling,Checkin service,Inflight service,Cleanliness,Departure Delay in Minutes,Arrival Delay in Minutes,satisfaction
+Male,Disloyal Customer,45,Personal Travel,Business,1000,2,2,3,3,3,4,0,2,2,0,0,2,2,0,20,50,satisfied
