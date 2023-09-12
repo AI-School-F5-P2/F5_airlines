@@ -45,15 +45,16 @@ with st.container():
         st.write('Aprendizaje Supervisado. Clasificación')
 
 
-st.write('**La Airline F5 App**, recoge los datos de un cliente nuevo y realiza una predicción sobre su grado de satisfacción.')
-multi = ''' Cupcake ipsum dolor sit amet danish. Muffin sesame snaps cupcake I love gingerbread biscuit lemon drops
- 
-soufflé cupcake. I love I love topping liquorice bonbon gummies 
-lemon drops. Icing muffin chocolate cake jelly-o muffin halvah. Macaroon I love pudding toffee topping pudding fruitcake. 
+st.write(" ")
+st.write(" ")
+st.write(" ")
+st.write(" ")
+multi = ''' Estamos encantados de tenerlo a bordo y nos encantaría saber más sobre su experiencia.
+¿Por qué? Porque usted importa. Nos apasiona ofrecer el mejor servicio posible, y su opinión nos ayuda a 
+elevar nuestros estándares.
 
-Topping muffin fruitcake I love topping lollipop I love jelly.
-Ice cream I love bear claw oat cake biscuit. Pastry bear claw brownie chupa chups gingerbread biscuit. 
-I love tart muffin cake I love tiramisu.
+Simplemente haga click en la pestaña **F5 Airline Survey** y complete el formulario. 
+No olvide pulsar el botón **'ENVIAR'**. ¡Así de fácil! .
 '''
 st.markdown(multi)
 
