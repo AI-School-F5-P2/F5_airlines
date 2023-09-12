@@ -49,7 +49,7 @@ features = ["Gender", "Customer Type", "Age", "Type of Travel", "Class", "Flight
 
 st.title('F5 Airlines')
 st.header('Encuesta de satisfacción')
-st.write('Cuál es su satisfacción, del 0 al 5, con:')
+st.write('Por favor, rellene los campos.')
 
 
 # Crear una lista para almacenar los datos
@@ -108,8 +108,6 @@ def execute_pipeline(df_data, data):
     df_data.to_csv('new_data.csv', mode="a", header=False, index=False)
     return y_pred
 
-# Crear un objeto Survey. Se instancia el formulario
-#survey = st.form('F5_Airlines')
 
 opc_val = ["0", "1", "2", "3", "4", "5"]
 
@@ -155,22 +153,21 @@ with st.form('F5_Airlines'):
         st.write(" ")
         st.divider()
         q23 = survey.radio(
-            'Como considera que se siente con relación a la Aerolínea.:',
+            'Cómo considera que se siente con relación a la Aerolínea.:',
             options=["satisfied", "neutral or dissatisfied"], horizontal=True)
 
 
-    submit = st.form_submit_button('Predict')
+    submit = st.form_submit_button('ENVIAR')
     if submit:
         # Recopilar datos en una lista
         data = [q22, q15, q21, q16, q17, q18, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q19, q20, q23]
 
         # Llamar a la función callback para guardar los datos
         df_pred = save_one_data_csv(data)
-        #st.dataframe(df_pred, use_container_width=True)
         prediccion = execute_pipeline(df_pred, data)
         df_feed = save_feedback_csv(prediccion, q23)
         if prediccion == "neutral or dissatisfied":
-            # st.snow()S
             st.error(f"Prediction: {prediccion}")
         else:
             st.success(f"Prediction: {prediccion}")
+
