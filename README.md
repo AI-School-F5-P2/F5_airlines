@@ -1,3 +1,4 @@
+
 <h1 style="text-align: center;">Proyecto F5 Airlines</h1>
 
 
@@ -69,5 +70,11 @@ Scrum, Trello
 
 Para ejecutar la App:
 Desde el directorio airline_main ejecutar: ``` streamlit run F5_Airline_App.py ``` 
+
+**Coders:**
+- Karla Lamus Oliveros
+- María López Jiménez
+- Javi Navarro
+- Sandra Gómez S.
 
 
