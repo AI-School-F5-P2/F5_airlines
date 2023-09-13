@@ -35,3 +35,7 @@ Female,Disloyal Customer,24,Personal Travel,Eco,350,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 Female,Disloyal Customer,24,Personal Travel,Eco,350,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,20,satisfied
 Female,Loyal Customer,24,Personal Travel,Eco,350,5,5,5,5,5,5,5,5,5,5,5,5,5,5,34,20,satisfied
 Female,Loyal Customer,24,Personal Travel,Eco,350,5,5,5,5,5,5,5,5,5,5,5,5,5,5,34,20,neutral or dissatisfied
+Male,Disloyal Customer,13,Business travel,Business,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,satisfied
+Male,Disloyal Customer,13,Business travel,Business,0,5,5,5,0,0,5,5,5,0,0,5,5,5,0,0,0,neutral or dissatisfied
+Male,Disloyal Customer,13,Business travel,Business,0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,0,0,neutral or dissatisfied
+Male,Disloyal Customer,13,Business travel,Business,0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,0,0,satisfied
