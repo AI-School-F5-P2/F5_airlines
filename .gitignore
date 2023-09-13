@@ -1,14 +1,24 @@
 # venv 
 /airline
+
 #checkpoints de JN
 airline_main/.ipynb_checkpoints
+
 #temporales
 /airline_main/.idea
+
 #CSV
 *.csv
 
+#pkl
+airline_main/data_pipeline.pkl
 
+#txt
+airline_main/Columnas_en_orden.txt
 
+#jupiter
+airline_main/Main_simple.ipynb
+airline_main/test_sgs.ipynb
 
 
 
