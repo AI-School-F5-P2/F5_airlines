@@ -1,8 +1,14 @@
+# venv 
 /airline
-/airline/.ipynb_checkpoints
+#checkpoints de JN
+airline_main/.ipynb_checkpoints
+#temporales
 /airline_main/.idea
-/airline_main/.ipynb_checkpoint
-*csv
+#CSV
+*.csv
+
+
+
 
 
 
